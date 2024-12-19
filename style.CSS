@@ -62,3 +62,35 @@ header{
     font-size: 20px;
     padding-left: 20px;
 }
+/* main section start here */
+.sec1{
+background-color: #2D236A;
+padding-top: 20px;
+}
+.parent{
+    width: 1100px;
+    margin:0  auto;
+    padding: 50px 0px;
+  
+}
+.para1{
+    display: flex;
+    justify-content: space-between;
+}
+.para1 div h3{
+    font-size: 25px;
+    color:#04AA6D;
+    font-weight: bold;
+}
+.para1 div h4{
+  color:#04AA6D;
+}
+.para1 div span{
+    color:black;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0 10px;
+    border: 1px solid rgb(204, 80, 80);
+    cursor: pointer;
+}
