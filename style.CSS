@@ -7,6 +7,7 @@ nav{
     justify-content: space-between;
     background-color: #1A0F43;
     padding: 10px 200px;
+    border-bottom:4px solid #401E63;
 }
 nav ul{
    display: flex;
@@ -32,4 +33,32 @@ nav ul li a:hover{
 nav div{
     color: white;
     font-size: 20px;
+}
+/* hero area start here */
+header{
+   background-image: url(image/Screenshot\ \(135\).png); 
+   padding: 200px 0;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox i{
+    color: white;
+    background-color:rgb(250, 138, 2);
+    font-size: 25px;
+    padding: 7px 8px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.searchbox input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 20px;
 }
